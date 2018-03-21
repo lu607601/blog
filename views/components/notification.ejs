@@ -1,0 +1,19 @@
+<div class="ui grid">
+    <div class="four wide column"></div>
+    <div class="eight wide column">
+        <% if (locals.success) { %>
+            <div class="ui success message">
+                <p>
+                    <%= locals.success %>
+                </p>
+            </div>
+            <% } %>
+                <% if (locals.error) { %>
+                    <div class="ui error message">
+                        <p>
+                            <%= locals.error %>
+                        </p>
+                    </div>
+                    <% } %>
+    </div>
+</div>

@@ -1,18 +1,45 @@
 {
-  "name": "myBlog",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "~4.13.1",
-    "jade": "~1.11.0",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0",
-    "mongoose":">=3.2.4"
-  }
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "CRYSTAL BLOG",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lu607601/blog.git"
+    },
+    "author": "CRYSTAL",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lu607601/blog/issues"
+    },
+    "homepage": "https://github.com/lu607601/blog#readme",
+    "dependencies": {
+        "babel-cli": "6.26.0",
+        "babel-preset-es2015": "6.24.1",
+        "config-lite": "2.1.0",
+        "connect-flash": "0.1.1",
+        "connect-mongo": "2.0.1",
+        "ejs": "2.5.7",
+        "express": "4.16.3",
+        "express-formidable": "1.0.0",
+        "express-session": "1.15.6",
+        "express-winston": "2.5.0",
+        "marked": "0.3.17",
+        "moment": "2.21.0",
+        "mongolass": "~4.1.1",
+        "mongoose": ">=3.2.4",
+        "objectid-to-timestamp": "1.3.0",
+        "sha1": "1.1.1",
+        "winston": "2.4.1"
+    },
+    "devDependencies": {
+        "eslint-config-standard": "11.0.0",
+        "eslint-plugin-import": "2.9.0",
+        "eslint-plugin-node": "6.0.1",
+        "eslint-plugin-promise": "3.7.0",
+        "eslint-plugin-standard": "3.0.1"
+    }
 }
