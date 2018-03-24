@@ -36,6 +36,7 @@ export default {
 
 </script>
 <style lang='less' scoped>
+@import url('../../theme/base.less');
 @import url('../../theme/admin.less');
 .admin {}
 

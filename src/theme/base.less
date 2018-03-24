@@ -1,0 +1,20 @@
+.clearfix {
+    &:after {
+        width: 0;
+        height: 0;
+        content: '';
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+}
+.center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right() {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
