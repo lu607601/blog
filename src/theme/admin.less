@@ -1,0 +1,23 @@
+@main-color: #333;
+@sub-color: #eef1f6;
+@txt-color: #48576a;
+.clearfix {
+    &:after {
+        width: 0;
+        height: 0;
+        content: '';
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+}
+.center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right() {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
