@@ -1,10 +1,6 @@
 <template>
     <div class="viewpage">
-        <div class="viewpage__title" v-html="title">
-        </div>
-        <div class="viewpage__data" v-html="data"></div>
-        <div v-html="content" class="viewpage__content">
-        </div>
+        <Viewer />
         <div class="buttons">
             <el-button @click="goback" type="primary" size="small">返回</el-button>
         </div>
@@ -34,19 +30,6 @@ export default {
 @import url('../../theme/admin.less');
 .viewpage {
     color: @txt-color;
-    &__title {
-        font-size: 20px;
-        text-align: center;
-    }
-    &__data {
-        font-size: 16px;
-        text-align: right;
-    }
-    &__content {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        min-height: 600px;
-    }
 }
 .buttons {
     padding-right: 20px;
